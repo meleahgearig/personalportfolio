@@ -41,7 +41,7 @@ img{
 
 }
 
-#aboutme, img{
+#aboutme>img{
     width: 50%;
 }
 
@@ -54,6 +54,7 @@ img{
     height: 100vh;
     color: lightseagreen;
     margin: 40px;
+    align-items: center;
 }
 
 #projects{
@@ -95,15 +96,3 @@ img{
  flex-direction: column;
  margin: 80px;
 }
-
-@media screen {
-    body {
-      width: 75%;
-    }
-  }
-  
-  @media print {
-    body {
-      width: 100%;
-    }
-  }
