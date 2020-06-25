@@ -40,6 +40,20 @@ img{
 
 }
 
+#aboutme, img{
+    width: 50%;
+}
+
+#aboutme{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: helvetica;
+    font-size: 30px;
+    color: lightseagreen;
+    margin: 40px;
+}
+
 #projects{
     display: flex;
     justify-content: center;
