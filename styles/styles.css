@@ -51,6 +51,7 @@ img{
     flex-direction: column;
     font-family: helvetica;
     font-size: 30px;
+    height: 100vh;
     color: lightseagreen;
     margin: 40px;
 }
