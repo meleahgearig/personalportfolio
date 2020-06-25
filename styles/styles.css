@@ -1,10 +1,8 @@
-body{
-    background-color:lightgray;
-}
 
 #navbar{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: white;
     position: fixed;
     top: 0px;
@@ -21,22 +19,65 @@ body{
 
 #welcome-section{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    min-width: 100%;
     height: 100vh;
     background-color: lavenderblush;
 }
 
 h1{
-    display: flex;
-    justify-content: space-evenly;
     font-family: Helvetica;
     font-size: 200px;
     color: lightseagreen;
+    
 }
 
 img{
     width: 50%;
 
+}
+
+#projects{
+    display: flex;
+    justify-content: center;
+}
+
+#getintouch, form, label{
+    font-family: helvetica;
+    font-size: large;
+    color: lightseagreen;
+    text-align: center;
+}
+
+#getintouch, form, input{
+    font-family: helvetica;
+    font-size: large;
+    color: lightseagreen;
+    text-align: center;
+}
+
+#getintouch, form, select{
+    font-family: helvetica;
+    font-size: large;
+    color: lightseagreen;
+    text-align-last: center;
+}
+
+#getintouch, form, textarea{
+    font-family: helvetica;
+    font-size: large;
+    text-align-last: center;
+}
+
+
+#getintouch, form{
+ display: flex;
+ justify-content: space-around;
+ flex-direction: column;
+ margin: 80px;
 }
 
 @media screen {
