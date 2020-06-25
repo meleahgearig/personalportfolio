@@ -1,4 +1,6 @@
-
+body{
+    background-color: lightcyan;
+}
 #navbar{
     display: flex;
     justify-content: space-around;
@@ -34,6 +36,8 @@ button{
     font-size: 40px;
     padding: 20px;
     border-color: white;
+    border-radius: 20px;
+    margin: 20px;
 }
 
 h1{
@@ -49,7 +53,7 @@ img{
 }
 
 #aboutme>img{
-    width: 50%;
+    width: 30%;
     margin: 20px;
 }
 
@@ -66,10 +70,18 @@ img{
 
 h2 {
     margin-block-start: 0px;
-    margin-block-end: 0px;
+    margin-block-end: 20px;
 }
 
 #projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+#talkbutton{
+    height: 25vh;
     display: flex;
     justify-content: center;
 }
@@ -106,7 +118,11 @@ h2 {
  display: flex;
  justify-content: space-around;
  flex-direction: column;
- margin: 80px;
+ margin-top: 20px;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-bottom: 100px;
+}
 
  @media screen {
     body {
