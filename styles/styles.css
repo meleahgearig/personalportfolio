@@ -14,3 +14,15 @@ body{
     justify-content: center;
     height: 800px;
 }
+
+@media screen {
+    body {
+      width: 75%;
+    }
+  }
+  
+  @media print {
+    body {
+      width: 100%;
+    }
+  }
