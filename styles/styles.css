@@ -1,0 +1,16 @@
+body{
+    background-color:lightgray;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    font-family: helvetica;
+    background-color: white;
+}
+
+#welcome-section{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
