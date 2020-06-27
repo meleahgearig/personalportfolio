@@ -52,8 +52,8 @@ h1{
     
 }
 
-#aboutme>img{
-    width: 30%;
+#aboutme > img{
+    width: 40%;
     margin: 20px;
 }
 
@@ -81,13 +81,14 @@ h2 {
 }
 
 #projects{
+    display: flex;
+    justify-content: right;
+    align-items: center;
     height: 75vh;
 }
 
 #projects > a > img{
-    width: 40%;
-    max-width: 1000px;
-    margin: 40px;
+    width: 50%;
 }
 
 #talkbutton{
