@@ -11,13 +11,14 @@ body{
     width: 100%;
     height: 120px;
     box-shadow: 2px 2px 2px;
+    color: lightseagreen;
 }
 
-#navbar, a {
-    color: lightseagreen;
+#navbar>a {
     font-family: helvetica;
     font-size: 30px;
     text-decoration: none;
+    color: lightseagreen;
 }
 
 #welcome-section{
@@ -40,16 +41,15 @@ button{
     margin: 20px;
 }
 
+button:hover{
+    background-color: #6BBFBF
+}
+
 h1{
     font-family: Helvetica;
     font-size: 150px;
     color: lightseagreen;
     
-}
-
-img{
-    width: 50%;
-
 }
 
 #aboutme>img{
@@ -73,11 +73,21 @@ h2 {
     margin-block-end: 20px;
 }
 
+#profile-link{
+    color: lightseagreen;
+    font-family: helvetica;
+    font-size: 30px;
+    text-decoration: none;
+}
+
 #projects{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 75vh;
+}
+
+#projects > a > img{
+    width: 40%;
+    max-width: 1000px;
+    margin: 40px;
 }
 
 #talkbutton{
