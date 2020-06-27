@@ -82,13 +82,13 @@ h2 {
 
 #projects{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 75vh;
 }
 
 .resize{
-    height: 30%;
+    height: 400px;
 }
 
 #talkbutton{
