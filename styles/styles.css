@@ -82,61 +82,78 @@ h2 {
 
 #projects{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     height: 75vh;
-}
-
-#projects > a > img{
-    width: 50%;
+    width: 50%
 }
 
 #talkbutton{
     height: 25vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#talkbutton > h2{
+    color: lightseagreen;
+    font-family: helvetica;
+    font-size: 30px;
 }
 
 #getintouch{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: lavenderblush;
+    text-align-last: center;
+    margin: 80px;
 }
 
-#getintouch, form, label{
+#getintouch > h2{
+    color: lightseagreen;
+    font-family: helvetica;
+    font-size: 30px;
+    margin: 40px;
+    text-align: center;
+}
+
+#getintouch > form > label{
     font-family: helvetica;
     font-size: large;
     color: lightseagreen;
     text-align: center;
 }
 
-#getintouch, form, input{
+#getintouch > form > input{
     font-family: helvetica;
     font-size: large;
     color: lightseagreen;
     text-align: center;
 }
 
-#getintouch, form, select{
+#getintouch > form > select{
     font-family: helvetica;
     font-size: large;
     color: lightseagreen;
     text-align-last: center;
 }
 
-#getintouch, form, textarea{
+#getintouch > form > textarea{
     font-family: helvetica;
     font-size: large;
     text-align-last: center;
 }
 
-
-#getintouch, form{
+#getintouch > form{
  display: flex;
  justify-content: space-around;
  flex-direction: column;
  margin-top: 20px;
  margin-left: 100px;
  margin-right: 100px;
- margin-bottom: 100px;
+ margin-bottom: 40px;
 }
 
  @media screen {
